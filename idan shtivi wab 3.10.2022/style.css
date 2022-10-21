@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    width: 100%;
+    background-color: #1C1C34;
+}
+body{
+    text-align: center;
+}
+
+.first-part {
+    width: 100%;
+    height: 800px;
+    
+}
+
+.video-container {
+    width: 100%;
+    height: 800px;
+}
+
+.homevideo {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    z-index: -1;
+}
+
+.top-nav {
+    width: 100%;
+    height: 70px;
+    margin: 0;
+    padding: 0;
+    background-color:#1C1C34 ;
+    position: fixed;
+    opacity: 50%;
+
+}
+
+ul {
+    width: 100%;
+    height: 70px;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+}
+
+li{
+    display: inline-block;
+    margin-top: 10px;
+    padding-left: 3%;
+    margin-right: 50px;
+}
+
+a {
+    list-style: none;
+    text-decoration: none;
+    color: #F3F4ED;
+    font-size: 35px;
+    display: inline;
+}
+
+a:hover {
+    color: #96E4F8;
+}
+
+div.row-1 {
+     width: 100%;
+     height: 80px;
+     background-color: #1C1C34;
+     position: absolute;
+     margin: 300px auto auto auto;
+     opacity: 50%;   
+    
+}
+
+h1.headline {
+    font-size: 4rem;
+    color: #96E4F8;
+    position: absolute;
+    padding-left: 25%;
+    float: left;
+    width: 50%;
+    margin-top: 18.75rem;
+
+}
+
+.Second-part {
+    width: 100%;
+    height: auto;
+    display: none;
+    background-color: #1C1C34;
+}
+
+.row-2 {
+    width: 50%;
+    margin: auto auto auto auto;
+    height: auto;
+}
+
+
+h2 {
+    font-size: 4rem;
+    color: #96E4F8;
+    display: inline-block;
+    margin: 40px auto 40px auto;
+}
+
+img.secondary-images {
+    height: 70px;
+    width: 70px;
+    display: inline-block;
+    color: #96E4F8;
+    position: absolute;
+    margin: 40px auto auto 20px;
+    
+}
+
+.introduction-p {
+    font-size: 1.5rem;
+    color: #F3F4ED;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.part-1 {
+    width: 100%;
+    height: 2100px;
+    background-color: #38598b;
+    margin: 0;
+    padding: 0;
+}
+
+.part-2 {
+    width: 100%;
+    height: 800px;
+    background-color: #5585b5;
+    margin: 0;
+    padding-bottom: 40px;
+    display: none;
+
+}
+
+
+form {
+    height: 270px;
+    width: 500px;
+    margin: 50px auto 40px auto;
+    background-color: none;
+    text-align: center;
+    border: solid #96E4F8 ;
+    padding-bottom: 30px;
+    border-radius: 6px;
+    border-width: 6px;
+
+}
+
+h3{
+    color: #96E4F8;
+    font-size: 2rem;
+    margin: 30px 20px 10px 10px;
+    text-align: left;
+}
+
+input {
+    height: 30px;
+    width: 100%;
+    background-color: aliceblue;
+}
+
+.send-button {
+    height: 40px;
+    width: 30%;
+    margin-top: 7px;
+    margin: 10px auto 10px auto;
+    font-size: 20px;
+    color: #F3F4ED;
+    background-color: #96E4F8;
+    box-shadow: 5px 5px 3px #c3f3ffb7;
+    border-radius: 4px;
+}
+
+hr {
+    border: dotted aliceblue;
+    border-bottom: none;
+    width: 7%;
+    margin: auto;
+}
+
+div.bottom-nav {
+    height: 100px;
+    width: 100%;
+    background-color: #c3f3ffb7 ;
+    display: none;
+}
+
+li.li-bottom-nav {
+    display: inline-block;
+    padding-left: 3%;
+    margin-right: 50px;
+}
+
+a.a-bottom-nav {
+    list-style: none;
+    text-decoration: none;
+    color: #F3F4ED;
+    font-size: 35px;
+    display: inline;
+    margin-top: 30px;
+}
+
+h4 {
+    font-size: 25px;
+    color: #F3F4ED;
+
+    padding-top: 10px;
+}
+
+
+@media screen and (max-width: 1250px)  {
+
+ul li {
+    margin-left:0;
+}
+
+a {
+  font-size: 20px;
+}
+
+h1.headline {
+    font-size: 2rem;
+}
+
+div.row-1 {
+    margin: 250px auto auto auto;
+}
+
+h1.headline {
+    margin-top: 16.23rem;
+}
+
+a.a-bottom-nav {
+    font-size: 20px;
+}
+h4 {
+    font-size: 20px;
+}
+
+}
+
+@media screen and (max-width: 1420px) {
+
+    .Second-part {
+        display: block;
+    }
+    
+    .top-nav {
+        display: none;
+    }
+
+    ul li {
+        margin-left:0;
+        display: none;
+    }
+    
+    a {
+      font-size: 20px;
+    }
+
+    div.bottom-nav {
+        display: block;
+    }
+    .part-2 {
+        display: block;
+    }
+}
+
+
+
+
+@media screen and (max-width: 1423px)  {
+    .first-part {
+        height: 540px;
+    }
+}
+
